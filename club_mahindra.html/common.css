@@ -1,0 +1,51 @@
+body,div,h1,h2,h3,p{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Raleway',sans-serif;
+    height: 100vh;
+}
+nav{
+    color: rgb(205, 241, 255);
+
+}
+nav ul { /* for the ul tag inside nav */ 
+    padding: 0;
+    display: flex;  /* flex container hs a horizontal layout */
+
+}
+nav ul li{   /* for the ul --li  tag */
+    list-style-type: none;
+    margin-right: 8px;
+    cursor:pointer;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:visited,
+nav ul li a:link,
+nav ul li a:hover{
+    color: black;
+}
+nav ul li .active{
+    border-bottom: 3px solid #149fcb;
+    color: #149fcb;
+}
+nav ul li:last-child{
+    margin-right: 0;
+
+}
+.section-title{
+    color: #149fcb;
+    font-size: 30px;
+    margin-bottom: 1 rem;
+    font-weight: 700;
+}
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: .5;
+}
