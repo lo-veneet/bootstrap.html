@@ -1,0 +1,121 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* HEADER STYLES */
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eaeaea;
+}
+.nav-items-container{
+    display: flex;
+    align-items: center;
+}
+.nav-items-container > nav{
+    margin-right: 32px;
+font-size: 14px;
+}
+.brand-name{
+    color:royalblue;
+    font-size: 24px;
+    margin: 0;
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+.nav-list > li{
+margin-right: 8px;
+}
+.nav-list > li:last-child{
+    margin-right: 0;
+    }
+    .nav-list > li.active{
+        border-bottom:1px solid orange;
+
+    }
+
+
+    .user-icon{
+        height: 30px;
+        width: 30px;
+        border-radius: 30%;
+        border:1px solid #eaeaea;
+        background: #eaeaea;
+    }
+
+/* HEADER STYLES */
+/* hero section styles */
+.hero{
+    margin-bottom: 16px;
+}
+.hero> .img-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.quote{
+font-size: 2.5rem;
+}
+.author{
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+
+/* .hero section styles */
+/* title section body */
+.meals > .title-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-section > .tilte{
+text-transform: uppercase;
+color: aqua;
+}
+.serach-container {
+height:24px;
+border-radius: 16px;
+outline:none;
+border: 1px solid #eaeaea;
+padding : 8px 16px;
+}
+/* pills styles  */
+.pills{
+display: flex;
+margin-bottom: 16px;
+}
+.pills > .pills-items{
+    margin: 16px;
+    border-radius: 24px;
+    padding: 8px;
+    border:1px soid #eaeaea; 
+cursor:pointer;
+
+}
+.pills-count{
+    border-radius: 50%;
+    background-color: orangered;
+    color:white;
+    font-size: 12px;
+    padding: 4px;
+}
+/* food-cards-container sytyles */
+.food-cards-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 16px;
+}
+.food-card{
+    border: 1px solid #eaeaea;
+border-radius: 8px;
+}
+.food-card-thumbnail{
+    height: auto;
+    width:100%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
